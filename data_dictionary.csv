@@ -1,0 +1,52 @@
+﻿Feature,Description,Data Type
+Year,Season Year,float64
+HOF,Is in Hall of Fame Boolean,object
+Player,Player Name,object
+Pos,Position,object
+Age,Age during season,float64
+Tm,Team during season,object
+G,Games played,float64
+GS,Games started,float64
+MP,Minutes played,float64
+PER,Minutes per game,float64
+TS%,True shooting percentage,float64
+3PAr,3PA/FGA,float64
+FTr,FT/FG,float64
+ORB%,Offensive rebound percentage,float64
+DRB%,Defensive rebound percentage,float64
+TRB%,Total rebound percentage,float64
+AST%,Assist percentage,float64
+STL%,Steal percentage,float64
+BLK%,Block percentage,float64
+TOV%,Turnover percentage,float64
+USG%,100 * ((FGA + 0.44 * FTA + TOV) * (Tm MP / 5)) / (MP * (Tm FGA + 0.44 * Tm FTA + Tm TOV)).,float64
+OWS,Offensive win shares,float64
+DWS,Defansive win shares,float64
+WS,Win shared,float64
+WS/48,Win shares per 48 minutes,float64
+OBPM,Offensive box plus/minus,float64
+DBPM,Defensive box plus/minus,float64
+BPM,Box plus/minus,float64
+VORP,Value over replacement player,float64
+FG,Total field goals made,float64
+FGA,Total field goals attempted,float64
+FG%,Total field goals percentage,float64
+3P,Total three pointers,float64
+3PA,Total three pointer  attempts,float64
+3P%,Total three pointer percentage,float64
+2P,Total two pointers made,float64
+2PA,Total two pointers attempts,float64
+2P%,Total two pointers percentage,float64
+eFG%,Total effective field goal percentage,float64
+FT,Total Free throws made,float64
+FTA,Total Free throw attempts,float64
+FT%,Total Free throw percentage,float64
+ORB,Total offensive rebounds,float64
+DRB,Total defensive rebounds,float64
+TRB,Total rebounds,float64
+AST,Total assists,float64
+STL,Total steals,float64
+BLK,Total blocks,float64
+TOV,Total tunovers,float64
+PF,Total Personal fouls,float64
+PTS,Total Points,float64
